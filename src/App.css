@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+form{
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+.form-control{
+  background-color: transparent;
+  color:black;
+  border: 0;
+  border-bottom: 1px solid whitesmoke;
+  border-radius: 0;
+
+}
+.form-control:focus{
+  background-color: transparent;
+  box-shadow: none !important 
+}
+.card{
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid rgb(107, 210, 228);
+}
